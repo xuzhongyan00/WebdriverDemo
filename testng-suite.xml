@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="tests" thread-count="3">
+    <test name="webdriverday001">
+        <classes>
+            <class name="com.webdemo.day004.ActionsTest"/>
+        </classes>
+    </test> <!-- webdriverday001 -->
+</suite> <!-- Default Suite -->
